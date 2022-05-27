@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/bydefault"
+                android:title="By Default"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/uk"
+                android:title="UK"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/us"
+                android:title="US"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/canada"
+                android:title="CANADA"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/germany"
+                android:title="GERMANY"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/japan"
+                android:title="JAPAN"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/france"
+                android:title="FRANCE"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/italy"
+                android:title="ITALY"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/korea"
+                android:title="KOREA"
+                app:showAsAction="never"/>
+
+</menu>

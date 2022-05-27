@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/terms"
+    android:title="Terms And Conditions"
+    android:icon="@drawable/ic_details_24"/>
+
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_question_24"/>
+
+    <item android:id="@+id/aboutus"
+        android:title="About Us"
+        android:icon="@drawable/attention"/>
+</menu>
