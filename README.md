@@ -6,4 +6,4 @@ Welcome to The News Zone, your getaway hub for global news, anytime, anywhere. W
 ![Banner](https://user-images.githubusercontent.com/60298946/172218854-b42bf656-de04-43b8-a82e-ba3678c9c327.png)
 
 # Screen Shots
-<img src = https://user-images.githubusercontent.com/60298946/172221066-5628660a-91f2-42cc-962a-a1c875dd6669.jpeg height = "625" width="1412" />
+<img src = https://user-images.githubusercontent.com/60298946/172221066-5628660a-91f2-42cc-962a-a1c875dd6669.jpeg height = "706" width="325" />
