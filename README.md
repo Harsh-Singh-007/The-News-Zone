@@ -15,3 +15,6 @@ Welcome to The News Zone, your getaway hub for global news, anytime, anywhere. W
 <td><img src = https://user-images.githubusercontent.com/60298946/172223409-7c4fec22-32f3-4331-bee8-fd65fcb3b51f.jpeg height = "300" width="230" /></td>
   </tr>
 </table>
+
+#OverView
+https://user-images.githubusercontent.com/60298946/192911883-df253652-d443-4ff9-b063-d52bfa5b40b7.mp4
