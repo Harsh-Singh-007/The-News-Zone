@@ -18,4 +18,4 @@ Welcome to The News Zone, your getaway hub for global news, anytime, anywhere. W
 
 # Overview
 
-https://user-images.githubusercontent.com/60298946/192911883-df253652-d443-4ff9-b063-d52bfa5b40b7.mp4
+https://user-images.githubusercontent.com/60298946/193396403-ed57cd78-6cdc-4da4-af8c-02137e494e5e.mp4
