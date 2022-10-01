@@ -1,4 +1,4 @@
-# The News Zone
+# The News Zone 2.0
 
 Welcome to The News Zone, your getaway hub for global news, anytime, anywhere. We're dedicated to providing you with the best news all around the globe, at the earliest. Install it and try it with different screen sizes.
 
