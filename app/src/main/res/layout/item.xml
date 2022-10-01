@@ -35,13 +35,15 @@
                 android:background="@drawable/gradient"/>
 
             <TextView
+                android:id="@+id/tvtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Title"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
-                android:textSize="20dp"
+                android:text="Title"
                 android:textColor="@color/white"
-                android:id="@+id/tvtitle"/>
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,19 +55,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
                     android:text="Source"
                     android:textSize="15dp"
                     android:textColor="@color/white"
-                    android:id="@+id/tvSource"/>
+                    android:id="@+id/tvSource"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
                     android:text="Date"
                     android:gravity="right"
                     android:textSize="15dp"
                     android:textColor="@color/white"
-                    android:id="@+id/tvDate"/>
+                    android:id="@+id/tvDate"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
         </FrameLayout>

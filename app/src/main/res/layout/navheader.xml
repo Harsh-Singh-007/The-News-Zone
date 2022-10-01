@@ -15,9 +15,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/robotomedium"
+        android:fontFamily="sans-serif-light"
         android:text="The News Zone"
+        android:textColor="@color/white"
         android:textSize="25sp"
-        android:textColor="@color/white"/>
+        android:textStyle="bold" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

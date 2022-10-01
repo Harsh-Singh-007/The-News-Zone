@@ -17,7 +17,7 @@ public class Help extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 
-        help = findViewById(R.id.backhelp);
+        help = findViewById(R.id.back);
 
         help.setOnClickListener(new View.OnClickListener() {
             @Override

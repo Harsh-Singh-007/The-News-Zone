@@ -35,11 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     SwipeRefreshLayout swipeRefreshLayout;
-    ImageView img,draw;
+    ImageView img;
     Adapter adapter;
     List<Articles> articles = new ArrayList<>();
-    final private String API_KEY = "Your Api Key";
-    Locale locale = Locale.getDefault();
+    final private String API_KEY = "Your API Key";
     String country;
 
     //Navigation Drawer
@@ -131,39 +130,39 @@ public class MainActivity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
 
                 if(item.getItemId() == R.id.bydefault){
-                    String country = getCountries("");
+                    country = getCountries("");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.uk){
-                    String country = getCountries("UK");
+                    country = getCountries("UK");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.us){
-                    String country = getCountries("US");
+                    country = getCountries("US");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.canada){
-                    String country = getCountries("CANADA");
+                    country = getCountries("CANADA");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.germany){
-                    String country = getCountries("GERMANY");
+                    country = getCountries("GERMANY");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.japan){
-                    String country = getCountries("JAPAN");
+                    country = getCountries("JAPAN");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.france){
-                    String country = getCountries("FRANCE");
+                    country = getCountries("FRANCE");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.italy){
-                    String country = getCountries("ITALY");
+                    country = getCountries("ITALY");
                     retriveJson(country,API_KEY);
                 }
                 else if(item.getItemId() == R.id.korea){
-                    String country = getCountries("KOREA");
+                    country = getCountries("KOREA");
                     retriveJson(country,API_KEY);
                 }
 
@@ -258,12 +257,5 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(t.getLocalizedMessage());
             }
         });
-    }
-
-    //Country
-    public String getCountry(){
-        //getting default country by language area of your phone.
-        //Locale locale = ConfigurationCompat.getLocales(Resources.getSystem().getConfiguration()).get(0);
-        return getCountries("");
     }
 }
